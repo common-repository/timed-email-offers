@@ -1,0 +1,7 @@
+.teo-tour-buttons {
+    display: block;
+    text-align: right;
+}
+.teo-tour-buttons > .button {
+    margin-left: 10px;
+}

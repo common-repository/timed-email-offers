@@ -1,0 +1,1006 @@
+/*----- Magnific Pop Up -----*/
+.white-popup {
+    position: relative;
+    background: #FFF;
+    padding: 20px;
+    width: auto;
+    max-width: 640px;
+    margin: 20px auto;
+}
+.mfp-content {
+    max-height: 90%;
+    overflow-y: auto;
+}
+
+
+
+
+/* TipTip CSS - Version 1.2 */
+
+#tiptip_holder {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99999;
+}
+
+#tiptip_holder.tip_top {
+	padding-bottom: 5px;
+}
+
+#tiptip_holder.tip_bottom {
+	padding-top: 5px;
+}
+
+#tiptip_holder.tip_right {
+	padding-left: 5px;
+}
+
+#tiptip_holder.tip_left {
+	padding-right: 5px;
+}
+
+#tiptip_content {
+	font-size: 11px;
+	color: #fff;
+	text-shadow: 0 0 2px #000;
+	padding: 4px 8px;
+	border: 1px solid rgba(255,255,255,0.25);
+	background-color: rgb(25,25,25);
+	background-color: rgba(25,25,25,0.92);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), to(#000));
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	box-shadow: 0 0 3px #555;
+	-webkit-box-shadow: 0 0 3px #555;
+	-moz-box-shadow: 0 0 3px #555;
+}
+
+#tiptip_arrow, #tiptip_arrow_inner {
+	position: absolute;
+	border-color: transparent;
+	border-style: solid;
+	border-width: 6px;
+	height: 0;
+	width: 0;
+}
+
+#tiptip_holder.tip_top #tiptip_arrow {
+	border-top-color: #fff;
+	border-top-color: rgba(255,255,255,0.35);
+}
+
+#tiptip_holder.tip_bottom #tiptip_arrow {
+	border-bottom-color: #fff;
+	border-bottom-color: rgba(255,255,255,0.35);
+}
+
+#tiptip_holder.tip_right #tiptip_arrow {
+	border-right-color: #fff;
+	border-right-color: rgba(255,255,255,0.35);
+}
+
+#tiptip_holder.tip_left #tiptip_arrow {
+	border-left-color: #fff;
+	border-left-color: rgba(255,255,255,0.35);
+}
+
+#tiptip_holder.tip_top #tiptip_arrow_inner {
+	margin-top: -7px;
+	margin-left: -6px;
+	border-top-color: rgb(25,25,25);
+	border-top-color: rgba(25,25,25,0.92);
+}
+
+#tiptip_holder.tip_bottom #tiptip_arrow_inner {
+	margin-top: -5px;
+	margin-left: -6px;
+	border-bottom-color: rgb(25,25,25);
+	border-bottom-color: rgba(25,25,25,0.92);
+}
+
+#tiptip_holder.tip_right #tiptip_arrow_inner {
+	margin-top: -6px;
+	margin-left: -5px;
+	border-right-color: rgb(25,25,25);
+	border-right-color: rgba(25,25,25,0.92);
+}
+
+#tiptip_holder.tip_left #tiptip_arrow_inner {
+	margin-top: -6px;
+	margin-left: -7px;
+	border-left-color: rgb(25,25,25);
+	border-left-color: rgba(25,25,25,0.92);
+}
+
+/* Webkit Hacks  */
+@media screen and (-webkit-min-device-pixel-ratio:0) {	
+	#tiptip_content {
+		padding: 4px 8px 5px 8px;
+		background-color: rgba(45,45,45,0.88);
+	}
+	#tiptip_holder.tip_bottom #tiptip_arrow_inner { 
+		border-bottom-color: rgba(45,45,45,0.88);
+	}
+	#tiptip_holder.tip_top #tiptip_arrow_inner { 
+		border-top-color: rgba(20,20,20,0.92);
+	}
+}
+
+
+
+
+/*---------------------------------------*/
+/*----- Timed Email Offer Templates -----*/
+/*---------------------------------------*/
+
+#timed-email-offer-templates-meta-box #show-offer-templates-controls {
+    margin-bottom: 15px;
+}
+#timed-email-offer-templates-meta-box #offer-templates-controls {
+    display: none;
+}
+#timed-email-offer-templates-meta-box #offer-templates-controls #show-template-legend {
+    display: block;
+    cursor: pointer;
+    margin: 10px 0 15px 0;
+}
+#timed-email-offer-templates-meta-box #offer-templates-controls #template-legend {
+    background-color: #E5E5E5;
+    border: 1px solid #D2D2D2;
+    padding: 2px 12px;
+    margin-bottom: 10px;
+    clear: both;
+    display: none;
+}
+#timed-email-offer-templates-meta-box #offer-templates-controls #template-legend #hide-template-legend {
+    margin-top: 10px;
+    display: block;
+    cursor: pointer;
+}
+#timed-email-offer-templates-meta-box #offer-templates-controls .field-set {
+    display: block;
+    margin-bottom: 15px;
+    clear: both;
+    float: none;
+}
+#timed-email-offer-templates-meta-box #offer-templates-controls .field-set label {
+    display: block;
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+#timed-email-offer-templates-meta-box #offer-templates-controls .field-set label .tooltip {
+    font-size: 1em;
+    margin-left: 4px;
+    display: inline-block;
+    color: #666666;
+    position: relative;
+    top: 2px;
+    cursor: help;
+    border: none;
+    outline: none;
+}
+#timed-email-offer-templates-meta-box #offer-templates-controls .field-set label[ for='wrap-with-wc-header-footer' ] {
+    display: inline-block;
+    font-weight: 400;
+}
+#timed-email-offer-templates-meta-box #offer-templates-controls .heading-text-field-set {
+    display: none;
+}
+#timed-email-offer-templates-meta-box #offer-templates-controls .field-set #schedule {
+    width: 100px;
+}
+#timed-email-offer-templates-meta-box #offer-templates-controls .field-set .field-desc {
+    display: inline-block;
+    margin-left: 6px;
+}
+#timed-email-offer-templates-meta-box #offer-templates-controls .field-set #heading-text,
+#timed-email-offer-templates-meta-box #offer-templates-controls .field-set #subject {
+    display: block;
+    width: 100%;
+}
+#timed-email-offer-templates-meta-box #offer-templates-controls .field-set.button-controls #add-template {
+    display: inline-block;
+}
+#timed-email-offer-templates-meta-box #offer-templates-controls .field-set.button-controls #edit-template {
+    display: none;
+}
+#timed-email-offer-templates-meta-box #offer-templates-controls.edit-mode .field-set.button-controls #add-template {
+    display: none;
+}
+#timed-email-offer-templates-meta-box #offer-templates-controls.edit-mode .field-set.button-controls #edit-template {
+    display: inline-block;
+}
+#timed-email-offer-templates-meta-box #offer-templates-controls.processing .field-set.button-controls #add-template,
+#timed-email-offer-templates-meta-box #offer-templates-controls.processing .field-set.button-controls #edit-template {
+    display: none;
+}
+#timed-email-offer-templates-meta-box #offer-templates-controls .field-set.button-controls .spinner {
+    display: none;
+    visibility: hidden;
+    float: none;
+}
+#timed-email-offer-templates-meta-box #offer-templates-controls.processing .field-set.button-controls .spinner {
+    display: inline-block;
+    visibility: visible;
+}
+#timed-email-offer-templates-meta-box #offer-templates thead th,
+#timed-email-offer-templates-meta-box #offer-templates tfoot th {
+    padding-left: 9px;
+    padding-right: 9px;
+}
+#timed-email-offer-templates-meta-box #offer-templates tbody tr td.column-controls {
+    text-align: right;
+}
+#timed-email-offer-templates-meta-box #offer-templates thead tr th.tid,
+#timed-email-offer-templates-meta-box #offer-templates tbody tr td.tid,
+#timed-email-offer-templates-meta-box #offer-templates tfoot tr td.tid {
+    width: 6% !important;
+}
+#timed-email-offer-templates-meta-box #offer-templates thead tr th.column-controls,
+#timed-email-offer-templates-meta-box #offer-templates tbody tr td.column-controls,
+#timed-email-offer-templates-meta-box #offer-templates tfoot tr td.column-controls {
+    width: 10% !important;
+}
+#timed-email-offer-templates-meta-box #offer-templates tbody tr td.column-controls .dashicons {
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 4px;
+}
+#timed-email-offer-templates-meta-box #offer-templates tbody tr td.column-controls .edit-offer-template {
+    color: green;
+}
+#timed-email-offer-templates-meta-box #offer-templates tbody tr td.column-controls .send-test-email {
+    color: blue;
+}
+#timed-email-offer-templates-meta-box #offer-templates tbody tr td.column-controls .delete-offer-template {
+    color: red;
+}
+#timed-email-offer-templates-meta-box #offer-templates.processing-mode tbody tr td .dashicons {
+    visibility: hidden;
+}
+#timed-email-offer-templates-meta-box #offer-templates tbody tr:hover {
+    background-color: #E3F2F8;
+}
+#timed-email-offer-templates-meta-box #offer-templates tbody tr.processing,
+#timed-email-offer-templates-meta-box #offer-templates tbody tr.processing:hover {
+    background-color: #FFEED9;
+}
+
+/*----- Send Test Email Popup -----*/
+
+#send-test-email-popup {
+    width: 300px;
+}
+#send-test-email-popup > h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+#send-test-email-popup p.desc {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+#send-test-email-popup .field-set {
+    display: block;
+    margin-bottom: 12px;
+}
+#send-test-email-popup .field-set label {
+    display: block;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+#send-test-email-popup .button-field-set.field-set {
+    margin-bottom: 0;
+}
+#send-test-email-popup .field-set #test-email-recipient {
+    width: 100%;
+}
+#send-test-email-popup .field-set #send-test-email {
+    width: 100%;
+}
+
+
+
+
+/*----------------------------------------*/
+/*----- Timed Email Offer Conditions -----*/
+/*----------------------------------------*/
+
+#timed-email-offer-conditions-meta-box #offer-conditions {
+    margin-bottom: 15px;
+    border: 1px solid #eee;
+    padding: 10px;
+}
+
+/*----- Offer Condition Group Logic -----*/
+
+#timed-email-offer-conditions-meta-box #offer-conditions .offer-condition-group-logic {
+    padding: 20px;
+    text-align: center;
+}
+#timed-email-offer-conditions-meta-box #offer-conditions .offer-condition-group-logic .controls {
+    display: inline-block;
+}
+
+/*----- Offer Condition Group -----*/
+#timed-email-offer-conditions-meta-box #offer-conditions .offer-condition-group {
+    background-color: #e9e9e9;
+    padding: 10px;
+}
+#timed-email-offer-conditions-meta-box #offer-conditions .offer-condition-group .offer-condition-group-actions {
+    text-align: right;
+}
+#timed-email-offer-conditions-meta-box #offer-conditions .offer-condition-group .offer-condition-group-actions .remove-condition-group {
+    color: red;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    top: -5px;
+}
+#timed-email-offer-conditions-meta-box #offer-conditions .offer-condition-group .empty-condition-group-container .empty-condition-group-message {
+    text-align: center;
+    margin: 0;
+}
+#timed-email-offer-conditions-meta-box #offer-conditions .offer-condition-group .offer-condition-controls {
+    text-align: center;
+    padding: 15px 10px 5px 10px;
+}
+#timed-email-offer-conditions-meta-box #offer-conditions .offer-condition-group .offer-condition-controls .controls {
+    display: inline-block;
+}
+#timed-email-offer-conditions-meta-box #offer-conditions .offer-condition-group .offer-condition-controls .controls .show-add-condition-controls {
+    display: inline-block;
+}
+#timed-email-offer-conditions-meta-box #offer-conditions .offer-condition-group .offer-condition-controls.adding-condition-mode .controls .show-add-condition-controls {
+    display: none;
+}
+#timed-email-offer-conditions-meta-box #offer-conditions .offer-condition-group .offer-condition-controls .controls .condition-logic,
+#timed-email-offer-conditions-meta-box #offer-conditions .offer-condition-group .offer-condition-controls .controls .condition-types,
+#timed-email-offer-conditions-meta-box #offer-conditions .offer-condition-group .offer-condition-controls .controls .add-condition,
+#timed-email-offer-conditions-meta-box #offer-conditions .offer-condition-group .offer-condition-controls .controls .hide-add-condition-controls {
+    display: none;
+}
+#timed-email-offer-conditions-meta-box #offer-conditions .offer-condition-group .offer-condition-controls.adding-condition-mode .controls .condition-logic,
+#timed-email-offer-conditions-meta-box #offer-conditions .offer-condition-group .offer-condition-controls.adding-condition-mode .controls .condition-types,
+#timed-email-offer-conditions-meta-box #offer-conditions .offer-condition-group .offer-condition-controls.adding-condition-mode .controls .add-condition,
+#timed-email-offer-conditions-meta-box #offer-conditions .offer-condition-group .offer-condition-controls.adding-condition-mode .controls .hide-add-condition-controls {
+    display: inline-block;
+}
+#timed-email-offer-conditions-meta-box #offer-conditions .offer-condition-group .offer-condition-controls .controls .spinner {
+    display: none;
+    visibility: hidden;
+}
+#timed-email-offer-conditions-meta-box #offer-conditions .offer-condition-group .offer-condition-controls.processing-mode .controls .spinner {
+    display: inline-block;
+    visibility: visible;
+}
+
+/*----- Offer Condition -----*/
+.offer-condition-logic {
+    text-align: center;
+    padding: 15px;
+}
+.offer-condition-logic .controls {
+    display: inline-block;
+}
+.offer-condition[data-condition-type="product-quantity"] {
+    background-color: #F3F3F3;
+    padding: 10px;
+}
+.offer-condition[data-condition-type="product-quantity"] .offer-condition-actions {
+    text-align: right;
+}
+.offer-condition[data-condition-type="product-quantity"] .offer-condition-actions .remove-condition {
+    color: red;
+    cursor: pointer;
+}
+.offer-condition[data-condition-type="product-quantity"] .fields {
+    margin-bottom: 15px;
+}
+.offer-condition[data-condition-type="product-quantity"] .fields .field-set {
+    float: left;
+    margin-right: 10px;
+}
+.offer-condition[data-condition-type="product-quantity"] .fields .field-set .product-in-order-quantity {
+    width: 90px;
+}
+.offer-condition[data-condition-type="product-quantity"] .fields .field-set.product-in-order-quantity-field-set {
+    margin-right: 5px;
+}
+.offer-condition[data-condition-type="product-quantity"] .fields .field-set.button-field-set {
+    margin-right: 0;
+}
+.offer-condition[data-condition-type="product-quantity"] .fields .field-set label {
+    display: block;
+    margin-bottom: 2px;
+}
+.offer-condition[data-condition-type="product-quantity"] .fields .field-set .additional-product-data {
+    margin-top: 10px;
+}
+.offer-condition[data-condition-type="product-quantity"] .fields .field-set.button-field-set {
+    padding-top: 20px;
+}
+.offer-condition[data-condition-type="product-quantity"] .fields .field-set.button-field-set .spinner {
+    display: none;
+    visibility: hidden;
+    margin-right: 0;
+}
+.offer-condition[data-condition-type="product-quantity"].processing-mode .fields .field-set.button-field-set .spinner {
+    display: inline-block;
+    visibility: visible;
+}
+.offer-condition[data-condition-type="product-quantity"] .fields .button-field-set .add-product-in-order-btn {
+    display: inline-block;
+}
+.offer-condition[data-condition-type="product-quantity"] .fields .button-field-set .edit-product-in-order-btn,
+.offer-condition[data-condition-type="product-quantity"] .fields .button-field-set .cancel-edit-product-in-order-btn {
+    display: none;
+}
+.offer-condition[data-condition-type="product-quantity"] .fields .button-field-set.edit-mode .add-product-in-order-btn {
+    display: none;
+}
+.offer-condition[data-condition-type="product-quantity"] .fields .button-field-set.edit-mode .edit-product-in-order-btn,
+.offer-condition[data-condition-type="product-quantity"] .fields .button-field-set.edit-mode .cancel-edit-product-in-order-btn {
+    display: inline-block;
+}
+.offer-condition[data-condition-type="product-quantity"] .product-quantity-table thead tr th.product-heading,
+.offer-condition[data-condition-type="product-quantity"] .product-quantity-table thead tr th.product-quantity-condition-heading,
+.offer-condition[data-condition-type="product-quantity"] .product-quantity-table tbody tr th.product-quantity-heading,
+.offer-condition[data-condition-type="product-quantity"] .product-quantity-table tbody tr th.product,
+.offer-condition[data-condition-type="product-quantity"] .product-quantity-table tbody tr th.product-quantity-condition,
+.offer-condition[data-condition-type="product-quantity"] .product-quantity-table tbody tr th.product-quantity {
+    width: 30%;
+}
+.offer-condition[data-condition-type="product-quantity"] .product-quantity-table thead tr th.controls-heading,
+.offer-condition[data-condition-type="product-quantity"] .product-quantity-table tbody tr td.row-controls {
+    width: 10%;
+    text-align: right;
+}
+.offer-condition[data-condition-type="product-quantity"] .product-quantity-table tbody tr td.row-controls .edit-product {
+    color: green;
+    display: inline-block;
+    cursor: pointer;
+}
+.offer-condition[data-condition-type="product-quantity"] .product-quantity-table tbody tr td.row-controls .delete-product {
+    color: red;
+    display: inline-block;
+    cursor: pointer;
+}
+.offer-condition[data-condition-type="product-quantity"] .product-quantity-table tbody tr:hover {
+    background-color: #E3F2F8;
+}
+.offer-condition[data-condition-type="product-quantity"] .product-quantity-table.processing-mode tr td.row-controls .edit-product,
+.offer-condition[data-condition-type="product-quantity"] .product-quantity-table.processing-mode tr td.row-controls .delete-product {
+    visibility: hidden;
+}
+.offer-condition[data-condition-type="product-quantity"] .product-quantity-table tr.processing-mode,
+.offer-condition[data-condition-type="product-quantity"] .product-quantity-table tr.processing-mode:hover {
+    background-color: #FFEED9;
+}
+
+/*----- No Offer Condition -----*/
+#timed-email-offer-conditions-meta-box #offer-conditions #no-offer-condition-container {
+    text-align: center;
+    padding: 10px;
+}
+#timed-email-offer-conditions-meta-box #offer-conditions #no-offer-condition-container #no-condition-message {
+    margin: 0;
+}
+
+/*----- Add Offer Condition Group Controls -----*/
+#timed-email-offer-conditions-meta-box #offer-conditions .offer-condition-group-controls {
+    display: block;
+    clear: both;
+    text-align: center;
+    padding: 20px 10px 5px 10px;
+}
+#timed-email-offer-conditions-meta-box #offer-conditions .offer-condition-group-controls .controls {
+    display: inline-block;
+    text-align: left;
+}
+#timed-email-offer-conditions-meta-box #offer-conditions .offer-condition-group-controls .controls .condition-group-logic {
+    display: none;
+}
+#timed-email-offer-conditions-meta-box #offer-conditions .offer-condition-group-controls.show-condition-group-logic .controls .condition-group-logic {
+    display: inline-block;
+}
+#timed-email-offer-conditions-meta-box #offer-conditions .offer-condition-group-controls .controls .spinner {
+    display: none;
+    visibility: hidden;
+}
+#timed-email-offer-conditions-meta-box #offer-conditions .offer-condition-group-controls.processing-mode .controls .spinner {
+    display: inline-block;
+    visibility: visible;
+}
+
+/*----- Add Offer Condition Group Controls -----*/
+#offer-condition-general-controls .spinner {
+    display: none;
+    visibility: hidden;
+    float: none;
+}
+#offer-condition-general-controls.processing-mode .spinner {
+    display: inline-block;
+    visibility: visible;
+}
+
+
+
+
+/*--------------------------------------------*/
+/*----- Timed Email Offer Accept Actions -----*/
+/*--------------------------------------------*/
+
+#add-offer-action-controls #add-accept-offer-action-btn,
+#add-offer-action-controls #save-accept-offer-actions-btn {
+    display: inline-block;
+}
+#add-offer-action-controls.adding-action-mode #add-accept-offer-action-btn,
+#add-offer-action-controls.adding-action-mode #save-accept-offer-actions-btn {
+    display: none;
+}
+#add-offer-action-controls #accept-offer-action-types,
+#add-offer-action-controls #add-action-btn,
+#add-offer-action-controls #cancel-add-action-btn {
+    display: none;
+}
+#add-offer-action-controls.adding-action-mode #accept-offer-action-types,
+#add-offer-action-controls.adding-action-mode #add-action-btn,
+#add-offer-action-controls.adding-action-mode #cancel-add-action-btn {
+    display: inline-block;
+}
+#add-offer-action-controls .spinner {
+    display: inline-block;
+    float: none;
+    visibility: hidden;
+    margin-top: -4px;
+}
+#accept-offer-actions .accept-offer-action header p {
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+#accept-offer-actions .accept-offer-action {
+    margin-bottom: 20px;
+    background-color: #F6F6F6;
+    padding: 10px;
+}
+#accept-offer-actions .accept-offer-action:nth-child(2n+2) {
+    background-color: #E8E8E8;
+}
+
+
+/*----- Add Products To Cart -----*/
+
+#add-products-to-cart-action-container .action-controls {
+    text-align: right;
+}
+#add-products-to-cart-action-container .action-controls .remove-action {
+    color: red;
+    cursor: pointer;
+}
+#add-products-to-cart-action-container .fields {
+    margin-bottom: 15px;
+}
+#add-products-to-cart-action-container .fields .field-set {
+    float: left;
+    margin-right: 15px;
+}
+#add-products-to-cart-action-container .fields .field-set #add-products-to-cart-quantity {
+    width: 120px;
+}
+#add-products-to-cart-action-container .fields .field-set label {
+    display: block;
+    margin-bottom: 2px;
+}
+#add-products-to-cart-action-container .fields .field-set label[ for = "add-products-to-cart-filter-variations" ] {
+    margin-top: 10px;
+}
+#add-products-to-cart-action-container .fields .field-set.button-field-set {
+    padding-top: 18px;
+}
+#add-products-to-cart-action-container .fields .field-set.button-field-set .spinner {
+    display: inline-block;
+    float: none;
+    visibility: hidden;
+}
+#add-products-to-cart-action-container .fields .button-field-set #add-product-to-cart-btn {
+    display: inline-block;
+}
+#add-products-to-cart-action-container .fields .button-field-set #add-product-to-cart-edit-button,
+#add-products-to-cart-action-container .fields .button-field-set #cancel-add-product-cart-edit-button {
+    display: none;
+}
+#add-products-to-cart-action-container .fields .button-field-set.edit-mode #add-product-to-cart-btn {
+    display: none;
+}
+#add-products-to-cart-action-container .fields .button-field-set.edit-mode #add-product-to-cart-edit-button,
+#add-products-to-cart-action-container .fields .button-field-set.edit-mode #cancel-add-product-cart-edit-button {
+    display: inline-block;
+}
+#add-products-to-cart-action-container #add-products-to-cart-table thead tr th.product-heading,
+#add-products-to-cart-action-container #add-products-to-cart-table thead tr th.quantity-heading,
+#add-products-to-cart-action-container #add-products-to-cart-table tbody tr td.product-text
+#add-products-to-cart-action-container #add-products-to-cart-table tbody tr td.product-quantity {
+    width: 45%;
+}
+#add-products-to-cart-action-container #add-products-to-cart-table thead tr th.controls-heading,
+#add-products-to-cart-action-container #add-products-to-cart-table tbody tr td.row-controls {
+    width: 10%;
+    text-align: right;
+}
+#add-products-to-cart-action-container #add-products-to-cart-table tbody tr td.row-controls .edit-product {
+    color: green;
+    display: inline-block;
+    cursor: pointer;
+}
+#add-products-to-cart-action-container #add-products-to-cart-table tbody tr td.row-controls .delete-product {
+    color: red;
+    display: inline-block;
+    cursor: pointer;
+}
+#add-products-to-cart-action-container #add-products-to-cart-table.processing_mode tr td.row-controls .edit-product,
+#add-products-to-cart-action-container #add-products-to-cart-table.processing_mode tr td.row-controls .delete-product {
+    visibility: hidden;
+}
+#add-products-to-cart-action-container #add-products-to-cart-table tbody tr:hover {
+    background-color: #E3F2F8;
+}
+#add-products-to-cart-action-container #add-products-to-cart-table tr.processing,
+#add-products-to-cart-action-container #add-products-to-cart-table tr.processing:hover {
+    background-color: #FFEED9;
+}
+
+
+/*----- Apply Coupons To Cart -----*/
+
+#apply-coupons-to-cart-action-container .action-controls {
+    text-align: right;
+}
+#apply-coupons-to-cart-action-container .action-controls .remove-action {
+    color: red;
+    cursor: pointer;
+}
+#apply-coupons-to-cart-action-container .fields {
+    margin-bottom: 15px;
+}
+#apply-coupons-to-cart-action-container .fields .field-set {
+    float: left;
+    margin-right: 15px;
+}
+#apply-coupons-to-cart-action-container .fields .field-set label {
+    display: block;
+    margin-bottom: 2px;
+}
+#apply-coupons-to-cart-action-container .fields .field-set.button-field-set {
+    padding-top: 18px;
+}
+#apply-coupons-to-cart-action-container .fields .field-set.button-field-set .spinner {
+    display: inline-block;
+    float: none;
+    visibility: hidden;
+}
+#apply-coupons-to-cart-action-container .fields .button-field-set #add-coupon-to-be-applied-to-cart-btn {
+    display: inline-block;
+}
+#apply-coupons-to-cart-action-container .fields .button-field-set #edit-coupon-to-be-applied-to-cart-btn,
+#apply-coupons-to-cart-action-container .fields .button-field-set #cancel-edit-coupon-to-be-applied-to-cart-btn {
+    display: none;
+}
+#apply-coupons-to-cart-action-container .fields .button-field-set.edit-mode #add-coupon-to-be-applied-to-cart-btn {
+    display: none;
+}
+#apply-coupons-to-cart-action-container .fields .button-field-set.edit-mode #edit-coupon-to-be-applied-to-cart-btn,
+#apply-coupons-to-cart-action-container .fields .button-field-set.edit-mode #cancel-edit-coupon-to-be-applied-to-cart-btn {
+    display: inline-block;
+}
+#apply-coupons-to-cart-action-container #apply-coupons-to-cart-table thead tr th.coupon-heading,
+#apply-coupons-to-cart-action-container #apply-coupons-to-cart-table thead tr th.coupon-type-heading,
+#apply-coupons-to-cart-action-container #apply-coupons-to-cart-table thead tr th.coupon-amount-heading,
+#apply-coupons-to-cart-action-container #apply-coupons-to-cart-table tbody tr td.coupon,
+#apply-coupons-to-cart-action-container #apply-coupons-to-cart-table tbody tr td.coupon-type,
+#apply-coupons-to-cart-action-container #apply-coupons-to-cart-table tbody tr td.coupon-amount {
+    width: 30%;
+}
+#apply-coupons-to-cart-action-container #apply-coupons-to-cart-table thead tr th.controls-heading,
+#apply-coupons-to-cart-action-container #apply-coupons-to-cart-table tbody tr td.row-controls {
+    width: 10%;
+    text-align: right;
+}
+#apply-coupons-to-cart-action-container #apply-coupons-to-cart-table tbody tr td.row-controls .edit-coupon {
+    color: green;
+    display: inline-block;
+    cursor: pointer;
+}
+#apply-coupons-to-cart-action-container #apply-coupons-to-cart-table tbody tr td.row-controls .delete-coupon {
+    color: red;
+    display: inline-block;
+    cursor: pointer;
+}
+#apply-coupons-to-cart-action-container #apply-coupons-to-cart-table.processing_mode tr td.row-controls .edit-coupon,
+#apply-coupons-to-cart-action-container #apply-coupons-to-cart-table.processing_mode tr td.row-controls .delete-coupon {
+    visibility: hidden;
+}
+#apply-coupons-to-cart-action-container #apply-coupons-to-cart-table tbody tr:hover {
+    background-color: #E3F2F8;
+}
+#apply-coupons-to-cart-action-container #apply-coupons-to-cart-table tr.processing,
+#apply-coupons-to-cart-action-container #apply-coupons-to-cart-table tr.processing:hover {
+    background-color: #FFEED9;
+}
+
+
+
+
+/*---------------------------------------------*/
+/*----- Timed Email Offer Decline Actions -----*/
+/*---------------------------------------------*/
+#decline-timed-email-offer-actions-meta-box #decline-offer-action-controls {
+    margin-top: 20px;
+}
+#decline-timed-email-offer-actions-meta-box #decline-offer-action-controls .spinner {
+    display: none;
+    visibility: hidden;
+    float: none;
+}
+#decline-timed-email-offer-actions-meta-box #decline-offer-action-controls.processing-mode .spinner {
+    display: inline-block;
+    visibility: visible;
+}
+
+
+
+
+/*---------------------------------------------*/
+/*-------- Timed Email Offer Recipients -------*/
+/*---------------------------------------------*/
+
+/*----- DataTables -----*/
+#offer-recipients-table_length,
+#offer-recipients-table_info {
+    display: inline-block;
+    float: none;
+}
+#offer-recipients-table_info {
+    position: relative;
+    top: 2px;
+}
+#offer-recipients-table_length {
+    margin-right: 40px;
+}
+#offer-recipients-table_paginate {
+    display: inline-block;
+    float: right;
+}
+#custom-datatable-filters {
+    margin-bottom: 20px;
+}
+#offer-recipients-table_processing {
+    top: 30%;
+}
+#offer-recipients-table_processing {
+    color: #000;
+    opacity: 1;
+    z-index: 999;
+    background: none;
+    font-weight: 600;
+}
+#offer-recipients-table_length {
+    margin-bottom: 15px;
+}
+#offer-recipients-table {
+    margin-bottom: 15px;
+}
+#offer-recipients-table thead th.recipient-name,
+#offer-recipients-table thead th.recipient-email,
+#offer-recipients-table thead th.recipient-order-no,
+#offer-recipients-table thead th.recipient-order-completed-date,
+#offer-recipients-table thead th.recipient-offer-response-status,
+#offer-recipients-table tfoot th.recipient-name,
+#offer-recipients-table tfoot th.recipient-email,
+#offer-recipients-table tfoot th.recipient-order-no,
+#offer-recipients-table tfoot th.recipient-order-completed-date,
+#offer-recipients-table tfoot th.recipient-offer-response-status {
+    cursor: pointer;
+}
+#offer-recipients-table thead tr th,
+#offer-recipients-table tfoot tr th {
+    padding: 10px 18px 10px 10px;
+}
+#offer-recipients-table thead .recipient-order-completed-date,
+#offer-recipients-table tfoot .recipient-order-completed-date,
+#offer-recipients-table tbody .recipient-order-completed-date {
+    width: 18% !important;
+}
+#offer-recipients-table thead .recipient-name,
+#offer-recipients-table tfoot .recipient-name,
+#offer-recipients-table tbody .recipient-name {
+    width: 14% !important;
+}
+#offer-recipients-table thead .recipient-order-no,
+#offer-recipients-table tfoot .recipient-order-no,
+#offer-recipients-table tbody .recipient-order-no {
+    width: 12% !important;
+}
+#offer-recipients-table thead .column-controls,
+#offer-recipients-table tfoot .column-controls,
+#offer-recipients-table tbody .column-controls {
+    width: 7% !important;
+}
+#offer-recipients-table tbody tr.processing-row {
+    background-color: #FFECCC !important;
+}
+#offer-recipients-table tbody .column-controls {
+    text-align: right;
+}
+#offer-recipients-table tbody .column-controls .dashicons {
+    cursor: pointer;
+}
+#offer-recipients-table tbody .column-controls .view-recipient-details {
+    color: blue;
+}
+#offer-recipients-table tbody .column-controls .delete-recipient {
+    color: red;
+}
+table.dataTable thead th, table.dataTable thead td {
+    border-bottom: 1px solid #E5E5E5;
+}
+table.dataTable tfoot th, table.dataTable tfoot td {
+    border-top: 1px solid #E5E5E5;
+}
+
+/*----- Table Retrieving Data Mode -----*/
+#offer-recipients-table.retrieving-data-mode tbody tr .column-controls .control {
+    visibility: hidden !important;
+}
+#offer-recipients-table.retrieving-data-mode tbody tr {
+    opacity: .5;
+}
+#offer-recipients-table.retrieving-data-mode tbody tr.odd:hover {
+    background-color: #f9f9f9;
+}
+#offer-recipients-table.retrieving-data-mode tbody tr.even:hover {
+    background-color: #ffffff;
+}
+
+/*----- Table Processing Mode -----*/
+#offer-recipients-table.processing-mode tbody tr .column-controls .control {
+    visibility: hidden !important;
+    display: none !important;
+}
+#offer-recipients-table.processing-mode tbody tr.odd:hover {
+    background-color: #f9f9f9;
+}
+#offer-recipients-table.processing-mode tbody tr.even:hover {
+    background-color: #ffffff;
+}
+#offer-recipients-table tbody tr:hover {
+    background-color: #E2F3F8;
+}
+#offer-recipients-table tbody tr.processing-row,
+#offer-recipients-table tbody tr.processing-row:hover,
+#offer-recipients-table.processing-mode tbody tr.processing-row,
+#offer-recipients-table.processing-mode tbody tr.processing-row:hover {
+    background-color: #FFECCC !important;
+}
+#offer-recipients-table.processing-mode tbody tr.processing-row .column-controls .spinner {
+    display: inline-block;
+    visibility: visible;
+    float: none;
+    margin: 0;
+}
+
+/*----- Recipient Details Popup -----*/
+.recipient-data-popup {
+    max-width: 800px;
+    background-color: #fff;
+}
+.recipient-data-popup > h2 {
+    margin-top: 0;
+}
+.recipient-data-popup .customer-data {
+    border-bottom: 1px solid #ececec;
+}
+.recipient-data-popup .customer-data h3 {
+    font-size: 1.1em;
+}
+.recipient-data-popup .customer-data label {
+    margin-right: 6px;
+}
+.recipient-data-popup .customer-data label,
+.recipient-data-popup .customer-data span {
+    display: inline-block;
+    font-size: 1em;
+    line-height: 1em;
+    vertical-align: middle;
+}
+.recipient-data-popup .order-data {
+    border-bottom: 1px solid #ececec;
+}
+.recipient-data-popup .order-data h3 {
+    font-size: 1.1em;
+}
+.recipient-data-popup .order-data label {
+    margin-right: 6px;
+}
+.recipient-data-popup .order-data label,
+.recipient-data-popup .order-data span {
+    display: inline-block;
+    font-size: 1em;
+    line-height: 1em;
+    vertical-align: middle;
+}
+.recipient-data-popup .recipient-schedules tbody tr:hover {
+    background-color: #E2F3F8;
+}
+.recipient-data-popup .recipient-schedules tbody tr.processing-row,
+.recipient-data-popup .recipient-schedules tbody tr.processing-row:hover {
+    background-color: #FFECCC !important;
+}
+.recipient-data-popup .recipient-schedules tbody .column-controls {
+    text-align: right;
+}
+.recipient-data-popup .recipient-schedules tbody .column-controls .dashicons {
+    cursor: pointer;
+}
+.recipient-data-popup .recipient-schedules tbody .column-controls .view-scheduled-email-details {
+    color: blue;
+}
+.recipient-data-popup .recipient-schedules tbody .column-controls .delete-recipient-schedule {
+    color: red;
+}
+.recipient-data-popup .recipient-schedules thead .sid,
+.recipient-data-popup .recipient-schedules thead .column-controls,
+.recipient-data-popup .recipient-schedules tbody .sid,
+.recipient-data-popup .recipient-schedules tbody .column-controls,
+.recipient-data-popup .recipient-schedules tfoot .sid,
+.recipient-data-popup .recipient-schedules tfoot .column-controls {
+    width: 6%;
+}
+
+
+
+
+/*-------------------------------------*/
+/*----- Timed Email Offer Upgrade -----*/
+/*-------------------------------------*/
+
+#timed-email-offer-upgrade .inside {
+    padding: 0;
+    margin: 0;
+}
+
+#timed-email-offer-upgrade .inside img {
+    max-width: 100%;
+    display: inline-block;
+}
+
+
+
+
+/*-------------------------------------*/
+/*----- Timed Email Offer Options -----*/
+/*-------------------------------------*/
+
+#timed-email-offer-options-meta-box .field-set {
+    display: block;
+}
+
+#timed-email-offer-options-meta-box .field-set label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#timed-email-offer-options-meta-box .field-set .desc {
+    font-style: italic !important;
+    font-size: 12px;
+}
+
+#timed-email-offer-options-meta-box #offer-order-field-set #offer-order {
+    display: block;
+    width: 100%;
+}

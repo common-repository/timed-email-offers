@@ -1,0 +1,151 @@
+#add-blacklist-manually-controls {
+    margin-bottom: 30px;
+}
+#add-blacklist-manually-controls .field-set {
+    margin-bottom: 15px;
+}
+#add-blacklist-manually-controls .field-set label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+#add-blacklist-manually-controls .field-set #blacklist-email {
+    display: block;
+    width: 300px;
+}
+#add-blacklist-manually-controls .button-field-set .spinner {
+    float: none;
+    display: inline-block;
+    visibility: hidden;
+    margin-top: 4px;
+}
+
+/*----- DataTables -----*/
+#blacklist-table_length,
+#blacklist-table_info {
+    display: inline-block;
+    float: none;
+}
+#blacklist-table_info {
+    position: relative;
+    top: 2px;
+}
+#blacklist-table_length {
+    margin-right: 40px;
+}
+#blacklist-table_paginate {
+    padding-top: 8px;
+    display: inline-block;
+    float: right;
+}
+#blacklist-controls {
+    margin-top: 26px;
+    margin-bottom: 20px;
+}
+#blacklist-table_processing {
+    top: 30%;
+}
+#blacklist-table_processing {
+    color: #000;
+    opacity: 1;
+    z-index: 999;
+    background: none;
+    font-weight: 600;
+}
+#blacklist-table_length {
+    margin-bottom: 15px;
+}
+#blacklist-table {
+    margin-bottom: 15px;
+}
+#blacklist-table thead tr th.email,
+#blacklist-table thead tr th.opt-out-date,
+#blacklist-table thead tr th.type,
+#blacklist-table tfoot tr th.email,
+#blacklist-table tfoot tr th.opt-out-date,
+#blacklist-table tfoot tr th.type {
+    cursor: pointer;
+}
+#blacklist-table thead .order,
+#blacklist-table tfoot .order,
+#blacklist-table tbody .order {
+    width: 6% !important;
+}
+#blacklist-table thead tr th,
+#blacklist-table tfoot tr th {
+    padding: 10px 18px 10px 10px;
+}
+#blacklist-table thead .recipient-order-no,
+#blacklist-table tfoot .recipient-order-no,
+#blacklist-table tbody .recipient-order-no {
+    width: 10% !important;
+}
+#blacklist-table thead .column-controls,
+#blacklist-table tfoot .column-controls,
+#blacklist-table tbody .column-controls {
+    width: 5% !important;
+}
+#blacklist-table tbody tr.processing-row {
+    background-color: #FFECCC !important;
+}
+#blacklist-table tbody .column-controls {
+    text-align: right;
+}
+#blacklist-table tbody .column-controls .dashicons {
+    cursor: pointer;
+}
+#blacklist-table tbody .column-controls .remove-blacklist-item {
+    color: red;
+}
+table.dataTable thead th, table.dataTable thead td {
+    border-bottom: 1px solid #E5E5E5;
+}
+table.dataTable tfoot th, table.dataTable tfoot td {
+    border-top: 1px solid #E5E5E5;
+}
+
+/*----- Table Retrieving Data Mode -----*/
+#blacklist-table.retrieving-data-mode tbody tr .column-controls .control {
+    visibility: hidden !important;
+}
+#blacklist-table.retrieving-data-mode tbody tr {
+    opacity: .5;
+}
+#blacklist-table.retrieving-data-mode tbody tr.odd:hover {
+    background-color: #f9f9f9;
+}
+#blacklist-table.retrieving-data-mode tbody tr.even:hover {
+    background-color: #ffffff;
+}
+
+/*----- Table Processing Mode -----*/
+#blacklist-table.processing-mode tbody tr .column-controls .control {
+    visibility: hidden !important;
+    display: none !important;
+}
+#blacklist-table.processing-mode tbody tr.odd:hover {
+    background-color: #f9f9f9;
+}
+#blacklist-table.processing-mode tbody tr.even:hover {
+    background-color: #ffffff;
+}
+#blacklist-table tbody tr:hover {
+    background-color: #E2F3F8;
+}
+#blacklist-table tbody tr.processing-row,
+#blacklist-table tbody tr.processing-row:hover,
+#blacklist-table.processing-mode tbody tr.processing-row,
+#blacklist-table.processing-mode tbody tr.processing-row:hover {
+    background-color: #FFECCC !important;
+}
+#blacklist-table.processing-mode tbody tr.processing-row .column-controls .spinner {
+    display: inline-block;
+    visibility: visible;
+    float: none;
+    margin: 0;
+}
+
+/* Hide Submit Button */
+p.submit {
+    display: none;
+}

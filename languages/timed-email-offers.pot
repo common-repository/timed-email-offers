@@ -1,0 +1,1439 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Just In Time Sales Offers Premium\n"
+"POT-Creation-Date: 2016-09-08 13:27+0800\n"
+"PO-Revision-Date: 2016-07-08 16:53+0800\n"
+"Language-Team: Rymera Web Co <support@marketingsuiteplugin.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x;_n\n"
+"Last-Translator: \n"
+"Language: en\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: .hg\n"
+"X-Poedit-SearchPathExcluded-1: .idea\n"
+"X-Poedit-SearchPathExcluded-2: bin\n"
+"X-Poedit-SearchPathExcluded-3: tests\n"
+
+#: models/class-teo-ajax-interfaces.php:128
+#: models/class-teo-ajax-interfaces.php:140 models/class-teo-bootstrap.php:64
+#: models/class-teo-bootstrap.php:76 models/class-teo-constants.php:648
+#: models/class-teo-constants.php:660 models/class-teo-i18n.php:55
+#: models/class-teo-i18n.php:67 models/class-teo-mailer.php:55
+#: models/class-teo-mailer.php:67 models/class-teo-script-loader.php:49
+#: models/class-teo-script-loader.php:61
+#: models/offer/class-teo-invalid-offer.php:55
+#: models/offer/class-teo-invalid-offer.php:67
+#: models/offer/class-teo-offer-accept-action.php:71
+#: models/offer/class-teo-offer-accept-action.php:83
+#: models/offer/class-teo-offer-condition.php:64
+#: models/offer/class-teo-offer-condition.php:76
+#: models/offer/class-teo-offer-cpt.php:73
+#: models/offer/class-teo-offer-cpt.php:85
+#: models/offer/class-teo-offer-decline-action.php:53
+#: models/offer/class-teo-offer-decline-action.php:65
+#: models/offer/class-teo-offer-recipient.php:64
+#: models/offer/class-teo-offer-recipient.php:76
+#: models/offer/class-teo-offer-schedule.php:55
+#: models/offer/class-teo-offer-schedule.php:67
+#: models/offer/class-teo-offer-template.php:55
+#: models/offer/class-teo-offer-template.php:67
+#: models/offer/class-timed-email-offer.php:100
+#: models/offer/class-timed-email-offer.php:112
+#: models/pages/class-teo-accept-offer-page.php:62
+#: models/pages/class-teo-accept-offer-page.php:74
+#: models/pages/class-teo-decline-offer-page.php:62
+#: models/pages/class-teo-decline-offer-page.php:74
+#: models/pages/class-teo-unsubscribe-page.php:71
+#: models/pages/class-teo-unsubscribe-page.php:83
+#: models/shop/class-teo-coupon.php:55 models/shop/class-teo-coupon.php:67
+#: models/shop/class-teo-product.php:55 models/shop/class-teo-product.php:67
+#: timed-email-offers.php:287 timed-email-offers.php:299
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: models/class-teo-ajax-interfaces.php:206
+#: models/class-teo-ajax-interfaces.php:248
+#: models/class-teo-ajax-interfaces.php:291
+#: models/class-teo-ajax-interfaces.php:347
+#: models/class-teo-ajax-interfaces.php:382
+#: models/class-teo-ajax-interfaces.php:425
+#: models/class-teo-ajax-interfaces.php:468
+#: models/class-teo-ajax-interfaces.php:506
+#: models/class-teo-ajax-interfaces.php:543
+#: models/class-teo-ajax-interfaces.php:590
+#: models/class-teo-ajax-interfaces.php:633
+#: models/class-teo-ajax-interfaces.php:676
+#: models/class-teo-ajax-interfaces.php:719
+#: models/class-teo-ajax-interfaces.php:771
+#: models/class-teo-ajax-interfaces.php:814
+#: models/class-teo-ajax-interfaces.php:862
+#: models/class-teo-ajax-interfaces.php:905
+#: models/class-teo-ajax-interfaces.php:957
+#: models/class-teo-ajax-interfaces.php:1004
+#: models/class-teo-ajax-interfaces.php:1039
+#: models/class-teo-ajax-interfaces.php:1082
+#: models/class-teo-ajax-interfaces.php:1125
+#: models/class-teo-ajax-interfaces.php:1163
+#: models/class-teo-ajax-interfaces.php:1244
+#: models/class-teo-ajax-interfaces.php:1280
+msgid "Security Check Failed"
+msgstr ""
+
+#: models/class-teo-ajax-interfaces.php:216
+msgid "Failed to get products."
+msgstr ""
+
+#: models/class-teo-ajax-interfaces.php:233
+#: models/class-teo-ajax-interfaces.php:276
+#: models/class-teo-ajax-interfaces.php:318
+#: models/class-teo-ajax-interfaces.php:367
+#: models/class-teo-ajax-interfaces.php:410
+#: models/class-teo-ajax-interfaces.php:453
+#: models/class-teo-ajax-interfaces.php:491
+#: models/class-teo-ajax-interfaces.php:528
+#: models/class-teo-ajax-interfaces.php:566
+#: models/class-teo-ajax-interfaces.php:618
+#: models/class-teo-ajax-interfaces.php:661
+#: models/class-teo-ajax-interfaces.php:704
+#: models/class-teo-ajax-interfaces.php:747
+#: models/class-teo-ajax-interfaces.php:799
+#: models/class-teo-ajax-interfaces.php:842
+#: models/class-teo-ajax-interfaces.php:890
+#: models/class-teo-ajax-interfaces.php:933
+#: models/class-teo-ajax-interfaces.php:979
+#: models/class-teo-ajax-interfaces.php:1024
+#: models/class-teo-ajax-interfaces.php:1067
+#: models/class-teo-ajax-interfaces.php:1110
+#: models/class-teo-ajax-interfaces.php:1148
+#: models/class-teo-ajax-interfaces.php:1185
+#: models/class-teo-ajax-interfaces.php:1229
+#: models/class-teo-ajax-interfaces.php:1265
+#: models/class-teo-ajax-interfaces.php:1301
+msgid "Invalid AJAX Call"
+msgstr ""
+
+#: models/class-teo-ajax-interfaces.php:258
+msgid "Failed to get product additional info."
+msgstr ""
+
+#: models/class-teo-ajax-interfaces.php:301
+msgid "Failed to get coupons."
+msgstr ""
+
+#: models/class-teo-ajax-interfaces.php:357
+msgid "Failed to retrieve offer email templates."
+msgstr ""
+
+#: models/class-teo-bootstrap.php:204
+msgid "Offer Declined"
+msgstr ""
+
+#: models/class-teo-bootstrap.php:206
+msgid ""
+"You have successfully decline the offer <b>\"[teo_decline_offer_title]\"</b>"
+msgstr ""
+
+#: models/class-teo-bootstrap.php:222
+msgid "Unsubscribed From Offers"
+msgstr ""
+
+#: models/class-teo-bootstrap.php:224
+msgid ""
+"You have successfully unsubscribe to all Timed Email Offers of this site."
+msgstr ""
+
+#: models/class-teo-bootstrap.php:252
+msgid "Invalid Offer"
+msgstr ""
+
+#: models/class-teo-bootstrap.php:254
+msgid "[teo-invalid-offer-error-message]"
+msgstr ""
+
+#: models/class-teo-bootstrap.php:402
+msgid "Settings"
+msgstr ""
+
+#: models/class-teo-constants.php:695
+msgid "Email Templates"
+msgstr ""
+
+#: models/class-teo-constants.php:702
+msgid "Timed Email Offer Conditions"
+msgstr ""
+
+#: models/class-teo-constants.php:709
+msgid "Timed Email Offer Accept Actions"
+msgstr ""
+
+#: models/class-teo-constants.php:716
+msgid "Timed Email Offer Decline Actions"
+msgstr ""
+
+#: models/class-teo-constants.php:723
+msgid "Timed Email Offer Recipients"
+msgstr ""
+
+#: models/class-teo-constants.php:730
+msgid "Premium Add-on"
+msgstr ""
+
+#: models/class-teo-constants.php:741 models/class-teo-constants.php:810
+msgid "TID"
+msgstr ""
+
+#: models/class-teo-constants.php:742
+#: views/offer/cpt/view-timed-email-offer-templates-meta-box.php:36
+msgid "Subject"
+msgstr ""
+
+#: models/class-teo-constants.php:743 models/class-teo-constants.php:811
+#: views/offer/cpt/view-timed-email-offer-templates-meta-box.php:21
+msgid "Schedule"
+msgstr ""
+
+#: models/class-teo-constants.php:744
+msgid "WC Wrapper"
+msgstr ""
+
+#: models/class-teo-constants.php:745
+#: views/offer/cpt/view-timed-email-offer-templates-meta-box.php:31
+msgid "Heading Text"
+msgstr ""
+
+#: models/class-teo-constants.php:750
+msgid "Product Quantity In The Order"
+msgstr ""
+
+#: models/class-teo-constants.php:751
+msgid "Product Category Exist In The Order"
+msgstr ""
+
+#: models/class-teo-constants.php:752
+msgid "Customer User Role"
+msgstr ""
+
+#: models/class-teo-constants.php:753
+msgid "Has Ordered Before"
+msgstr ""
+
+#: models/class-teo-constants.php:754
+msgid "Order Subtotal"
+msgstr ""
+
+#: models/class-teo-constants.php:755
+msgid "Order Quantity"
+msgstr ""
+
+#: models/class-teo-constants.php:761
+msgid "EXACTLY"
+msgstr ""
+
+#: models/class-teo-constants.php:762
+msgid "ANYTHING EXCEPT"
+msgstr ""
+
+#: models/class-teo-constants.php:763
+msgid "MORE THAN"
+msgstr ""
+
+#: models/class-teo-constants.php:764
+msgid "LESS THAN"
+msgstr ""
+
+#: models/class-teo-constants.php:768
+msgid "Add Products To Cart"
+msgstr ""
+
+#: models/class-teo-constants.php:769
+msgid "Apply Coupons To Cart"
+msgstr ""
+
+#: models/class-teo-constants.php:773
+msgid "Do Nothing"
+msgstr ""
+
+#: models/class-teo-constants.php:774
+msgid "Add Them To Another Timed Email Offer"
+msgstr ""
+
+#: models/class-teo-constants.php:780 models/class-teo-constants.php:794
+msgid "Pending Send"
+msgstr ""
+
+#: models/class-teo-constants.php:781 models/class-teo-constants.php:795
+msgid "Awaiting Response"
+msgstr ""
+
+#: models/class-teo-constants.php:782 models/class-teo-constants.php:796
+msgid "Accepted"
+msgstr ""
+
+#: models/class-teo-constants.php:783 models/class-teo-constants.php:797
+msgid "Declined"
+msgstr ""
+
+#: models/class-teo-constants.php:787
+msgid "Pending"
+msgstr ""
+
+#: models/class-teo-constants.php:788
+msgid "Sent"
+msgstr ""
+
+#: models/class-teo-constants.php:789
+msgid "Cancelled"
+msgstr ""
+
+#: models/class-teo-constants.php:790
+msgid "Failed"
+msgstr ""
+
+#: models/class-teo-constants.php:801
+msgid "Name"
+msgstr ""
+
+#: models/class-teo-constants.php:802 models/class-teo-constants.php:818
+#: models/class-teo-settings.php:451
+msgid "Email"
+msgstr ""
+
+#: models/class-teo-constants.php:803
+msgid "Order No."
+msgstr ""
+
+#: models/class-teo-constants.php:804
+msgid "Order Completed"
+msgstr ""
+
+#: models/class-teo-constants.php:805
+msgid "Status"
+msgstr ""
+
+#: models/class-teo-constants.php:812
+msgid "Send Status"
+msgstr ""
+
+#: models/class-teo-constants.php:813
+msgid "Response Status"
+msgstr ""
+
+#: models/class-teo-constants.php:819
+msgid "Opt-out Date"
+msgstr ""
+
+#: models/class-teo-constants.php:820
+msgid "Type"
+msgstr ""
+
+#: models/class-teo-constants.php:825
+#: views/offer/cpt/view-timed-email-offer-recipients-meta-box.php:16
+msgid "All"
+msgstr ""
+
+#: models/class-teo-constants.php:826
+msgid "Unsubscribed"
+msgstr ""
+
+#: models/class-teo-constants.php:827
+msgid "Manual"
+msgstr ""
+
+#: models/class-teo-constants.php:839
+msgid ""
+"Hi {recipient_first_name},<br><br>This is some example email content. Please "
+"personalize this to your offer.<br>This is your big chance to sell your "
+"customer on what your offer is all about!<br><br><a href=\"http://"
+"{accept_offer_url}\">Accept Offer</a><br><br>Not interested? Click here to "
+"<a href=\"http://{decline_offer_url}\">decline this offer</a>.<br><br>Or "
+"stop receiving offers, click <a href=\"http://"
+"{unsubscribe_offer_url}\">Unsubscribe</a>"
+msgstr ""
+
+#: models/class-teo-constants.php:1363
+#: views/offer/cpt/view-timed-email-offer-templates-meta-box.php:88
+#: views/offer/cpt/view-timed-email-offer-templates-meta-box.php:105
+msgid "Send Test Email"
+msgstr ""
+
+#: models/class-teo-constants.php:1364
+#: views/offer/cpt/view-timed-email-offer-templates-meta-box.php:58
+msgid "Edit Template"
+msgstr ""
+
+#: models/class-teo-constants.php:1365
+msgid "Delete Template"
+msgstr ""
+
+#: models/class-teo-helper.php:362
+msgid "Invalid Coupon Id"
+msgstr ""
+
+#: models/class-teo-helper.php:362
+msgid "Coupon Id supplied is invalid or does not exist"
+msgstr ""
+
+#: models/class-teo-script-loader.php:139
+msgid "No Email Templates"
+msgstr ""
+
+#: models/class-teo-script-loader.php:148
+msgid "Please specify the schedule"
+msgstr ""
+
+#: models/class-teo-script-loader.php:149
+msgid "Please specify email subject"
+msgstr ""
+
+#: models/class-teo-script-loader.php:150
+msgid "Please specify email message"
+msgstr ""
+
+#: models/class-teo-script-loader.php:151
+msgid "Please fill the template form properly"
+msgstr ""
+
+#: models/class-teo-script-loader.php:152
+msgid "Failed to add offer template"
+msgstr ""
+
+#: models/class-teo-script-loader.php:153
+msgid "Failed to delete offer template"
+msgstr ""
+
+#: models/class-teo-script-loader.php:154
+msgid "No template Set"
+msgstr ""
+
+#: models/class-teo-script-loader.php:155
+msgid ""
+"<b>Confirm Action</b><br>Are you sure to delete this email template?<br> "
+"<b>Warning:</b> If this email template is associated to any existing "
+"recipient's scheduled email, those scheduled emails will be unscheduled."
+msgstr ""
+
+#: models/class-teo-script-loader.php:156
+msgid "Failed to retrieve offer template info"
+msgstr ""
+
+#: models/class-teo-script-loader.php:157
+msgid "Failed to edit offer template"
+msgstr ""
+
+#: models/class-teo-script-loader.php:158
+msgid "Missing offer template index"
+msgstr ""
+
+#: models/class-teo-script-loader.php:159
+msgid "Please provide email recipient"
+msgstr ""
+
+#: models/class-teo-script-loader.php:160
+#: models/class-teo-script-loader.php:180
+#: models/class-teo-script-loader.php:215
+#: models/class-teo-script-loader.php:232
+msgid "Please fill the form properly"
+msgstr ""
+
+#: models/class-teo-script-loader.php:161
+msgid "Test email sent"
+msgstr ""
+
+#: models/class-teo-script-loader.php:162
+msgid "Failed to send test email"
+msgstr ""
+
+#: models/class-teo-script-loader.php:163
+msgid "Please specify heading text"
+msgstr ""
+
+#: models/class-teo-script-loader.php:165
+msgid " Days after order is completed"
+msgstr ""
+
+#: models/class-teo-script-loader.php:166
+msgid "Please input a value more than zero for the schedule field"
+msgstr ""
+
+#: models/class-teo-script-loader.php:177
+msgid "Failed to generate offer condition group markup"
+msgstr ""
+
+#: models/class-teo-script-loader.php:178
+msgid "Are you sure you want to remove this condition group?"
+msgstr ""
+
+#: models/class-teo-script-loader.php:179
+#: views/offer/cpt/view-timed-email-offer-conditions-meta-box.php:85
+msgid ""
+"No conditions are set for this offer yet. This means that all customers will "
+"receive this Offer on completion of their Order.<br/>Click <b>\"Add "
+"Condition Group\"</b> and <b>\"Add Condition\"</b> buttons to add some "
+"conditions."
+msgstr ""
+
+#: models/class-teo-script-loader.php:181
+msgid "Are you sure you want to remove this condition?"
+msgstr ""
+
+#: models/class-teo-script-loader.php:182
+#: models/offer/class-teo-offer-condition.php:163
+msgid ""
+"Empty Condition Group. Click <b>\"Add Condition\"</b> button to add "
+"condition."
+msgstr ""
+
+#: models/class-teo-script-loader.php:183
+#: models/class-teo-script-loader.php:209
+msgid "Please select a variation..."
+msgstr ""
+
+#: models/class-teo-script-loader.php:184
+#: views/offer/offer-conditions/view-product-to-check-in-order-entry.php:37
+msgid "Any Variation"
+msgstr ""
+
+#: models/class-teo-script-loader.php:185
+#: models/class-teo-script-loader.php:210
+msgid "Product variations"
+msgstr ""
+
+#: models/class-teo-script-loader.php:186
+#: models/class-teo-script-loader.php:211
+msgid "Failed to retrieve product additional data"
+msgstr ""
+
+#: models/class-teo-script-loader.php:187
+msgid "Please select product"
+msgstr ""
+
+#: models/class-teo-script-loader.php:188
+msgid "Please select product variation"
+msgstr ""
+
+#: models/class-teo-script-loader.php:189
+msgid "Please select product quantity condition"
+msgstr ""
+
+#: models/class-teo-script-loader.php:190
+msgid "Please select product quantity"
+msgstr ""
+
+#: models/class-teo-script-loader.php:191
+msgid "Failed to generate product quantity in cart entry markup"
+msgstr ""
+
+#: models/class-teo-script-loader.php:192
+msgid "Are you sure you want to remove this product?"
+msgstr ""
+
+#: models/class-teo-script-loader.php:193
+#: models/class-teo-script-loader.php:217
+#: models/offer/class-teo-offer-accept-action.php:276
+#: views/offer/cpt/view-accept-timed-email-offer-actions-meta-box.php:136
+#: views/offer/offer-conditions/view-product-quantity-in-order.php:89
+msgid "No products added"
+msgstr ""
+
+#: models/class-teo-script-loader.php:194
+msgid "Successfully saved timed email offer conditions"
+msgstr ""
+
+#: models/class-teo-script-loader.php:195
+msgid "Failed to save timed email offer conditions"
+msgstr ""
+
+#: models/class-teo-script-loader.php:196
+msgid "Failed to generate new timed email offer condition markup"
+msgstr ""
+
+#: models/class-teo-script-loader.php:197
+msgid "Please specify offer condition type"
+msgstr ""
+
+#: models/class-teo-script-loader.php:208
+msgid "Failed to add new accept offer action"
+msgstr ""
+
+#: models/class-teo-script-loader.php:212
+msgid "Please select a product to add"
+msgstr ""
+
+#: models/class-teo-script-loader.php:213
+msgid "Please specify a product quantity to add"
+msgstr ""
+
+#: models/class-teo-script-loader.php:214
+msgid "Failed to generate product to add entry mark up"
+msgstr ""
+
+#: models/class-teo-script-loader.php:216
+msgid "Are you sure to delete this product?"
+msgstr ""
+
+#: models/class-teo-script-loader.php:218
+msgid "Failed to generate coupon to apply entry markup"
+msgstr ""
+
+#: models/class-teo-script-loader.php:219
+msgid "Are you sure to remove this coupon?"
+msgstr ""
+
+#: models/class-teo-script-loader.php:220
+#: models/offer/class-teo-offer-accept-action.php:337
+#: views/offer/cpt/view-accept-timed-email-offer-actions-meta-box.php:228
+msgid "No coupons added"
+msgstr ""
+
+#: models/class-teo-script-loader.php:221
+msgid "Are you sure to delete this accept offer action?"
+msgstr ""
+
+#: models/class-teo-script-loader.php:222
+msgid ""
+"<p class=\"no-actions\">Take the customer to the site and then ...<br/"
+">There's currently no acceptance actions defined. Click <b>\"Add Action\"</"
+"b> to define what should happen after clicking Accept in an email.</p>"
+msgstr ""
+
+#: models/class-teo-script-loader.php:223
+msgid "Successfully saved accept offer actions"
+msgstr ""
+
+#: models/class-teo-script-loader.php:224
+msgid "Failed to save accept offer actions"
+msgstr ""
+
+#: models/class-teo-script-loader.php:225
+msgid "Please select a product variation to add"
+msgstr ""
+
+#: models/class-teo-script-loader.php:226
+msgid "Please select a coupon to apply"
+msgstr ""
+
+#: models/class-teo-script-loader.php:227
+msgid "Please select an action to execute"
+msgstr ""
+
+#: models/class-teo-script-loader.php:233
+msgid "Successfully saved decline offer actions"
+msgstr ""
+
+#: models/class-teo-script-loader.php:234
+msgid "Failed to save decline offer actions"
+msgstr ""
+
+#: models/class-teo-script-loader.php:239
+msgid "No Recipients"
+msgstr ""
+
+#: models/class-teo-script-loader.php:248
+msgid "Are you sure you want to remove this scheduled email?"
+msgstr ""
+
+#: models/class-teo-script-loader.php:249
+#: views/offer/cpt/view-timed-email-offer-recipient-data-popup.php:96
+msgid "No Scheduled Emails"
+msgstr ""
+
+#: models/class-teo-script-loader.php:250
+msgid "Failed to remove scheduled email"
+msgstr ""
+
+#: models/class-teo-script-loader.php:251
+msgid "Failed retrieving recipient data."
+msgstr ""
+
+#: models/class-teo-script-loader.php:252
+msgid "Are you sure to want to remove this recipient?"
+msgstr ""
+
+#: models/class-teo-script-loader.php:253
+msgid "Failed to remove offer recipient"
+msgstr ""
+
+#: models/class-teo-script-loader.php:281
+msgid "No Blacklisted Emails"
+msgstr ""
+
+#: models/class-teo-script-loader.php:287
+msgid "Please fill a valid email address"
+msgstr ""
+
+#: models/class-teo-script-loader.php:288
+msgid ""
+"<b>Are you sure to blacklist this email?</b><br/>Executing this means "
+"removing any existing entry of this user with this email from the list of "
+"recipients of all Timed Email Offers."
+msgstr ""
+
+#: models/class-teo-script-loader.php:289
+#: models/class-teo-script-loader.php:292
+msgid "Failed to opt-out email"
+msgstr ""
+
+#: models/class-teo-script-loader.php:290
+msgid ""
+"Are you sure you wish to remove this email from the blacklist? This means "
+"the customer will be eligible to receive timed email offers again."
+msgstr ""
+
+#: models/class-teo-script-loader.php:291
+msgid "<b>Warning:</b> This is an unsubscribed email."
+msgstr ""
+
+#: models/class-teo-settings.php:36 models/offer/class-teo-offer-cpt.php:132
+#: models/offer/class-teo-offer-cpt.php:136
+#: models/offer/class-teo-offer-cpt.php:148
+msgid "Timed Email Offers"
+msgstr ""
+
+#: models/class-teo-settings.php:61
+msgid "General"
+msgstr ""
+
+#: models/class-teo-settings.php:62
+msgid "Acceptance"
+msgstr ""
+
+#: models/class-teo-settings.php:63
+msgid "Decline"
+msgstr ""
+
+#: models/class-teo-settings.php:64
+msgid "Blacklist"
+msgstr ""
+
+#: models/class-teo-settings.php:65
+msgid "Help"
+msgstr ""
+
+#: models/class-teo-settings.php:175
+msgid "General Options"
+msgstr ""
+
+#: models/class-teo-settings.php:189
+msgid "Decline Offer Page"
+msgstr ""
+
+#: models/class-teo-settings.php:191
+msgid ""
+"The page that is where the recipient is sent when he/she clicks the decline "
+"offer link"
+msgstr ""
+
+#: models/class-teo-settings.php:202
+msgid "Unsubscribe Page"
+msgstr ""
+
+#: models/class-teo-settings.php:204
+msgid ""
+"The page that is where the recipient is sent when he/she clicks the "
+"unsubscribe link"
+msgstr ""
+
+#: models/class-teo-settings.php:215
+msgid "Invalid Offer Page"
+msgstr ""
+
+#: models/class-teo-settings.php:217
+msgid ""
+"The page where customers are sent if they click a link leading to an offer "
+"that is no longer valid."
+msgstr ""
+
+#: models/class-teo-settings.php:249
+msgid "Acceptance Options"
+msgstr ""
+
+#: models/class-teo-settings.php:251
+msgid "Options influencing the behavior of accepting offers."
+msgstr ""
+
+#: models/class-teo-settings.php:256
+msgid "Retain Cart Contents On Offer Accept"
+msgstr ""
+
+#: models/class-teo-settings.php:258
+msgid "Do not clear cart contents before applying offer accept actions."
+msgstr ""
+
+#: models/class-teo-settings.php:263
+msgid "Turn Off Notice On Offer Acceptance"
+msgstr ""
+
+#: models/class-teo-settings.php:265
+msgid "Don't show notice to customer about the offer being accepted."
+msgstr ""
+
+#: models/class-teo-settings.php:270
+msgid "Unschedule pending emails on conversion instead of acceptance"
+msgstr ""
+
+#: models/class-teo-settings.php:272
+msgid ""
+"Instead of unscheduling any remaining emails to be sent for the offer after "
+"the recipient clicks an \"Accept\" link the system will keep sending "
+"scheduled emails until an order is actually made."
+msgstr ""
+
+#: models/class-teo-settings.php:298
+msgid "Decline Options"
+msgstr ""
+
+#: models/class-teo-settings.php:300
+msgid "Options relating to declining offers."
+msgstr ""
+
+#: models/class-teo-settings.php:305
+msgid "Offer Timeout Period"
+msgstr ""
+
+#: models/class-teo-settings.php:307
+msgid ""
+"The number of days after the final email of an offer is sent and still no "
+"response from the recipient, consider the offer as declined. Leave empty to "
+"disable time out period."
+msgstr ""
+
+#: models/class-teo-settings.php:313
+msgid "Execute Declined Actions On Timeout"
+msgstr ""
+
+#: models/class-teo-settings.php:315
+msgid "Execute decline actions of an offer if it times out"
+msgstr ""
+
+#: models/class-teo-settings.php:341
+msgid "Blacklist Options"
+msgstr ""
+
+#: models/class-teo-settings.php:373
+msgid "Help Options"
+msgstr ""
+
+#: models/class-teo-settings.php:387
+msgid "Clean up plugin options on un-installation"
+msgstr ""
+
+#: models/class-teo-settings.php:389
+msgid ""
+"If checked, removes all plugin options when this plugin is uninstalled. "
+"<b>Warning:</b> This process is irreversible"
+msgstr ""
+
+#: models/class-teo-settings.php:424
+msgid "Knowledge Base"
+msgstr ""
+
+#: models/class-teo-settings.php:427
+#, php-format
+msgid ""
+"Looking for documentation? Please see our growing <a href=\"%1$s\" target="
+"\"_blank\">Knowledge Base</a>"
+msgstr ""
+
+#: models/class-teo-settings.php:447
+msgid "Manually Opt-out Email"
+msgstr ""
+
+#: models/class-teo-settings.php:458
+msgid "Blacklist Email"
+msgstr ""
+
+#: models/class-teo-settings.php:469
+msgid "Blacklist Type:"
+msgstr ""
+
+#: models/class-teo-settings.php:513
+#: views/offer/cpt/view-timed-email-offer-upgrade-meta-box.php:3
+msgid "Timed Email Offers Premium"
+msgstr ""
+
+#: models/offer/class-teo-offer-accept-action.php:209
+#: models/offer/class-teo-offer-accept-action.php:371
+#: models/offer/class-teo-offer-accept-action.php:455
+#: models/offer/class-teo-offer-accept-action.php:510
+#: models/offer/class-teo-offer-condition.php:126
+#: models/offer/class-teo-offer-condition.php:219
+#: models/offer/class-teo-offer-condition.php:245
+#: models/offer/class-teo-offer-condition.php:448
+#: models/offer/class-teo-offer-decline-action.php:131
+#: models/offer/class-teo-offer-recipient.php:241
+#: models/offer/class-teo-offer-recipient.php:319
+#: models/offer/class-teo-offer-recipient.php:350
+#: models/offer/class-teo-offer-recipient.php:392
+#: models/offer/class-teo-offer-recipient.php:432
+#: models/offer/class-teo-offer-template.php:306
+#: models/offer/class-teo-offer-template.php:397
+#: models/offer/class-teo-offer-template.php:456
+#: models/offer/class-teo-offer-template.php:488
+#: models/offer/class-teo-offer-template.php:549
+#: models/offer/class-teo-offer-template.php:612
+#: models/pages/class-teo-unsubscribe-page.php:185
+#: models/pages/class-teo-unsubscribe-page.php:249
+#: models/pages/class-teo-unsubscribe-page.php:290
+msgid "Invalid Operation."
+msgstr ""
+
+#: models/offer/class-teo-offer-accept-action.php:212
+#: models/offer/class-teo-offer-accept-action.php:374
+#: models/offer/class-teo-offer-accept-action.php:458
+#: models/offer/class-teo-offer-accept-action.php:513
+#: models/offer/class-teo-offer-condition.php:129
+#: models/offer/class-teo-offer-condition.php:222
+#: models/offer/class-teo-offer-condition.php:248
+#: models/offer/class-teo-offer-condition.php:451
+#: models/offer/class-teo-offer-decline-action.php:134
+#: models/offer/class-teo-offer-recipient.php:244
+#: models/offer/class-teo-offer-recipient.php:322
+#: models/offer/class-teo-offer-recipient.php:353
+#: models/offer/class-teo-offer-recipient.php:395
+#: models/offer/class-teo-offer-recipient.php:435
+#: models/offer/class-teo-offer-template.php:309
+#: models/offer/class-teo-offer-template.php:400
+#: models/offer/class-teo-offer-template.php:459
+#: models/offer/class-teo-offer-template.php:491
+#: models/offer/class-teo-offer-template.php:552
+#: models/offer/class-teo-offer-template.php:615
+#: models/pages/class-teo-unsubscribe-page.php:188
+#: models/pages/class-teo-unsubscribe-page.php:252
+#: models/pages/class-teo-unsubscribe-page.php:293
+#: models/shop/class-teo-coupon.php:119
+msgid "Authorization Failed."
+msgstr ""
+
+#: models/offer/class-teo-offer-accept-action.php:215
+#: models/offer/class-teo-offer-condition.php:225
+msgid "Invalid Args Data"
+msgstr ""
+
+#: models/offer/class-teo-offer-accept-action.php:227
+#: models/offer/class-teo-offer-accept-action.php:296
+#: views/offer/cpt/view-accept-timed-email-offer-actions-meta-box.php:26
+#: views/offer/cpt/view-accept-timed-email-offer-actions-meta-box.php:154
+msgid "Remove Action"
+msgstr ""
+
+#: models/offer/class-teo-offer-accept-action.php:238
+#: views/offer/cpt/view-accept-timed-email-offer-actions-meta-box.php:37
+msgid "Add product to cart"
+msgstr ""
+
+#: models/offer/class-teo-offer-accept-action.php:239
+#: views/offer/cpt/view-accept-timed-email-offer-actions-meta-box.php:38
+#: views/offer/offer-conditions/view-product-quantity-in-order.php:35
+msgid "Please select a product..."
+msgstr ""
+
+#: models/offer/class-teo-offer-accept-action.php:246
+#: models/offer/class-teo-offer-accept-action.php:268
+#: views/offer/cpt/view-accept-timed-email-offer-actions-meta-box.php:45
+#: views/offer/cpt/view-accept-timed-email-offer-actions-meta-box.php:67
+#: views/offer/offer-conditions/view-product-quantity-in-order.php:50
+#: views/offer/offer-conditions/view-product-quantity-in-order.php:73
+msgid "Quantity"
+msgstr ""
+
+#: models/offer/class-teo-offer-accept-action.php:253
+#: models/offer/class-teo-offer-accept-action.php:313
+#: models/offer/class-teo-offer-condition.php:189
+#: views/offer/cpt/view-accept-timed-email-offer-actions-meta-box.php:52
+#: views/offer/cpt/view-accept-timed-email-offer-actions-meta-box.php:171
+#: views/offer/cpt/view-accept-timed-email-offer-actions-meta-box.php:281
+#: views/offer/cpt/view-timed-email-offer-conditions-meta-box.php:69
+#: views/offer/offer-conditions/view-product-quantity-in-order.php:57
+msgid "Add"
+msgstr ""
+
+#: models/offer/class-teo-offer-accept-action.php:254
+#: models/offer/class-teo-offer-accept-action.php:314
+#: views/offer/cpt/view-accept-timed-email-offer-actions-meta-box.php:53
+#: views/offer/cpt/view-accept-timed-email-offer-actions-meta-box.php:172
+#: views/offer/offer-conditions/view-product-quantity-in-order.php:58
+msgid "Edit"
+msgstr ""
+
+#: models/offer/class-teo-offer-accept-action.php:255
+#: models/offer/class-teo-offer-accept-action.php:315
+#: models/offer/class-teo-offer-condition.php:190
+#: views/offer/cpt/view-accept-timed-email-offer-actions-meta-box.php:54
+#: views/offer/cpt/view-accept-timed-email-offer-actions-meta-box.php:173
+#: views/offer/cpt/view-accept-timed-email-offer-actions-meta-box.php:282
+#: views/offer/cpt/view-timed-email-offer-conditions-meta-box.php:70
+#: views/offer/cpt/view-timed-email-offer-templates-meta-box.php:60
+#: views/offer/offer-conditions/view-product-quantity-in-order.php:59
+msgid "Cancel"
+msgstr ""
+
+#: models/offer/class-teo-offer-accept-action.php:267
+#: views/offer/cpt/view-accept-timed-email-offer-actions-meta-box.php:66
+#: views/offer/offer-conditions/view-product-quantity-in-order.php:71
+msgid "Product"
+msgstr ""
+
+#: models/offer/class-teo-offer-accept-action.php:303
+#: views/offer/cpt/view-accept-timed-email-offer-actions-meta-box.php:161
+msgid "Apply coupon to cart"
+msgstr ""
+
+#: models/offer/class-teo-offer-accept-action.php:304
+#: views/offer/cpt/view-accept-timed-email-offer-actions-meta-box.php:162
+msgid "Please select a coupon..."
+msgstr ""
+
+#: models/offer/class-teo-offer-accept-action.php:327
+#: views/offer/cpt/view-accept-timed-email-offer-actions-meta-box.php:185
+msgid "Coupon"
+msgstr ""
+
+#: models/offer/class-teo-offer-accept-action.php:328
+#: views/offer/cpt/view-accept-timed-email-offer-actions-meta-box.php:186
+msgid "Coupon Type"
+msgstr ""
+
+#: models/offer/class-teo-offer-accept-action.php:329
+#: views/offer/cpt/view-accept-timed-email-offer-actions-meta-box.php:187
+msgid "Coupon Amount"
+msgstr ""
+
+#: models/offer/class-teo-offer-accept-action.php:351
+#: models/offer/class-teo-offer-condition.php:227
+msgid "An unknown error occur when generating offer condition markup."
+msgstr ""
+
+#: models/offer/class-teo-offer-accept-action.php:379
+msgid "Invalid Product To Add Entry Data"
+msgstr ""
+
+#: models/offer/class-teo-offer-accept-action.php:462
+msgid "Invalid Coupon To Apply Entry Data"
+msgstr ""
+
+#: models/offer/class-teo-offer-accept-action.php:519
+msgid "Invalid Offer Accept Actions Data"
+msgstr ""
+
+#: models/offer/class-teo-offer-condition.php:145
+#: views/offer/cpt/view-timed-email-offer-conditions-meta-box.php:26
+#: views/offer/offer-conditions/view-product-quantity-in-order.php:10
+msgid "AND"
+msgstr ""
+
+#: models/offer/class-teo-offer-condition.php:146
+#: views/offer/cpt/view-timed-email-offer-conditions-meta-box.php:27
+#: views/offer/offer-conditions/view-product-quantity-in-order.php:11
+msgid "OR"
+msgstr ""
+
+#: models/offer/class-teo-offer-condition.php:159
+#: views/offer/cpt/view-timed-email-offer-conditions-meta-box.php:40
+msgid "Remove Condition Group"
+msgstr ""
+
+#: models/offer/class-teo-offer-condition.php:179
+#: views/offer/cpt/view-decline-timed-email-offer-actions-meta-box.php:22
+#, php-format
+msgid "%1$s (PREMIUM)"
+msgstr ""
+
+#: models/offer/class-teo-offer-condition.php:188
+#: views/offer/cpt/view-timed-email-offer-conditions-meta-box.php:68
+msgid "Add Condition"
+msgstr ""
+
+#: models/offer/class-teo-offer-condition.php:261
+#: models/offer/class-teo-offer-condition.php:266
+msgid "Invalid Offer Condition"
+msgstr ""
+
+#: models/offer/class-teo-offer-condition.php:272
+#: models/offer/class-teo-offer-condition.php:456
+msgid "Invalid Product Quantity In Order Entry Data"
+msgstr ""
+
+#: models/offer/class-teo-offer-cpt.php:133
+#: models/offer/class-teo-offer-cpt.php:134
+msgid "Timed Email Offer"
+msgstr ""
+
+#: models/offer/class-teo-offer-cpt.php:135
+msgid "Parent Timed Email Offer"
+msgstr ""
+
+#: models/offer/class-teo-offer-cpt.php:137
+msgid "View Timed Email Offer"
+msgstr ""
+
+#: models/offer/class-teo-offer-cpt.php:138
+msgid "Add Timed Email Offer"
+msgstr ""
+
+#: models/offer/class-teo-offer-cpt.php:139
+msgid "New Timed Email Offer"
+msgstr ""
+
+#: models/offer/class-teo-offer-cpt.php:140
+msgid "Edit Timed Email Offer"
+msgstr ""
+
+#: models/offer/class-teo-offer-cpt.php:141
+msgid "Update Timed Email Offer"
+msgstr ""
+
+#: models/offer/class-teo-offer-cpt.php:142
+msgid "Search Timed Email Offers"
+msgstr ""
+
+#: models/offer/class-teo-offer-cpt.php:143
+msgid "No Timed Email Offer found"
+msgstr ""
+
+#: models/offer/class-teo-offer-cpt.php:144
+msgid "No Timed Email Offers found in Trash"
+msgstr ""
+
+#: models/offer/class-teo-offer-cpt.php:149
+msgid "Timed Email Offer Information Pages"
+msgstr ""
+
+#: models/offer/class-teo-offer-decline-action.php:140
+msgid "Invalid Offer Decline Actions Data"
+msgstr ""
+
+#: models/offer/class-teo-offer-recipient.php:331
+msgid "Failed retrieving recipient data. Recipient does not exist."
+msgstr ""
+
+#: models/offer/class-teo-offer-recipient.php:405
+msgid ""
+"The scheduled email you wish to remove does not exist on the recipient's "
+"list scheduled emails."
+msgstr ""
+
+#: models/offer/class-teo-offer-template.php:362
+#, php-format
+msgid "%1$s Day after order is completed"
+msgstr ""
+
+#: models/offer/class-teo-offer-template.php:404
+#: models/offer/class-teo-offer-template.php:495
+msgid "Invalid Template Data"
+msgstr ""
+
+#: models/offer/class-teo-offer-template.php:426
+#: models/offer/class-teo-offer-template.php:523
+msgid ""
+"<b>Please fill the template form properly</b><br> The <b>schedule</b> you've "
+"chosen is already taken by another Email Template, please change to another "
+"day before saving."
+msgstr ""
+
+#: models/offer/class-teo-offer-template.php:468
+msgid "The offer template you wish to get info does not exist on record."
+msgstr ""
+
+#: models/offer/class-teo-offer-template.php:504
+msgid "The offer template you wish to edit does not exist on record."
+msgstr ""
+
+#: models/offer/class-teo-offer-template.php:562
+msgid "The offer template you wish to delete does not exist on record."
+msgstr ""
+
+#: models/offer/class-teo-offer-template.php:618
+msgid "Invalid Recipient Email"
+msgstr ""
+
+#: models/offer/class-teo-offer-template.php:624
+msgid "The template you wish to send a test email does not exist on record."
+msgstr ""
+
+#: models/offer/class-teo-offer-template.php:636
+msgid "Failed to send test email."
+msgstr ""
+
+#: models/pages/class-teo-accept-offer-page.php:273
+#, php-format
+msgid "<b>\"%1$s\"</b> has been accepted!"
+msgstr ""
+
+#: models/pages/class-teo-accept-offer-page.php:503
+#: models/pages/class-teo-decline-offer-page.php:222
+#: models/pages/class-teo-unsubscribe-page.php:334
+msgid "Sorry, this offer is no longer available"
+msgstr ""
+
+#: models/pages/class-teo-accept-offer-page.php:515
+#: models/pages/class-teo-decline-offer-page.php:234
+#: models/pages/class-teo-unsubscribe-page.php:346
+msgid "This offer link is invalid"
+msgstr ""
+
+#: models/pages/class-teo-unsubscribe-page.php:255
+#: models/pages/class-teo-unsubscribe-page.php:296
+msgid "Invalid Email"
+msgstr ""
+
+#: models/pages/class-teo-unsubscribe-page.php:302
+msgid "The email you wish to opt-out does not exist on blacklist"
+msgstr ""
+
+#: models/shop/class-teo-coupon.php:116
+msgid "Function \"get_coupons\" requires an $args argument in array format."
+msgstr ""
+
+#: models/shop/class-teo-coupon.php:134 models/shop/class-teo-product.php:130
+msgid "--Select Product--"
+msgstr ""
+
+#: models/shop/class-teo-coupon.php:172 models/shop/class-teo-product.php:154
+msgid "Unsupported \"return_format\" in the $args argument."
+msgstr ""
+
+#: models/shop/class-teo-coupon.php:177 models/shop/class-teo-product.php:159
+msgid "Missing \"return_format\" key in the $args argument."
+msgstr ""
+
+#: models/shop/class-teo-product.php:115
+msgid "Function \"get_products\" requires an $args argument in array format."
+msgstr ""
+
+#: timed-email-offers.php:372
+msgid "Click here to install from WordPress.org repo &rarr;"
+msgstr ""
+
+#: timed-email-offers.php:374
+msgid "Activate this plugin"
+msgstr ""
+
+#: timed-email-offers.php:374
+msgid "Click here to activate &rarr;"
+msgstr ""
+
+#: timed-email-offers.php:378
+msgid ""
+"<b>Timed Email Offers</b> plugin missing dependency.<br/><br/>Please ensure "
+"you have the <a href=\"http://wordpress.org/plugins/woocommerce/\" target="
+"\"_blank\">WooCommerce</a> plugin installed and activated.<br/>"
+msgstr ""
+
+#: views/offer/cpt/view-accept-timed-email-offer-actions-meta-box.php:11
+msgid "If offer is accepted do the following: "
+msgstr ""
+
+#: views/offer/cpt/view-accept-timed-email-offer-actions-meta-box.php:250
+msgid ""
+"Take the customer to the site and then ...<br/>There's currently no "
+"acceptance actions defined. Click <b>\"Add Action\"</b> to define what "
+"should happen after clicking Accept in an email."
+msgstr ""
+
+#: views/offer/cpt/view-accept-timed-email-offer-actions-meta-box.php:260
+msgid "Add Action"
+msgstr ""
+
+#: views/offer/cpt/view-accept-timed-email-offer-actions-meta-box.php:261
+#: views/offer/cpt/view-decline-timed-email-offer-actions-meta-box.php:40
+msgid "Save Actions"
+msgstr ""
+
+#: views/offer/cpt/view-accept-timed-email-offer-actions-meta-box.php:264
+msgid "--Select Action--"
+msgstr ""
+
+#: views/offer/cpt/view-accept-timed-email-offer-actions-meta-box.php:275
+msgid "Remove Products From Cart (PREMIUM)"
+msgstr ""
+
+#: views/offer/cpt/view-accept-timed-email-offer-actions-meta-box.php:276
+msgid "Remove Coupons From Cart (PREMIUM)"
+msgstr ""
+
+#: views/offer/cpt/view-decline-timed-email-offer-actions-meta-box.php:10
+msgid "If offer is declined do the following: "
+msgstr ""
+
+#: views/offer/cpt/view-decline-timed-email-offer-actions-meta-box.php:12
+msgid ""
+"<b>Note:</b> When a recipient declines an offer, he/she will no longer "
+"received any email relating with this offer. All his/her scheduled emails "
+"for this offer will be removed.</b>"
+msgstr ""
+
+#: views/offer/cpt/view-timed-email-offer-conditions-meta-box.php:11
+msgid "Add customer as a recipient for this offer if conditions below are met"
+msgstr ""
+
+#: views/offer/cpt/view-timed-email-offer-conditions-meta-box.php:95
+msgid "Add Condition Group"
+msgstr ""
+
+#: views/offer/cpt/view-timed-email-offer-conditions-meta-box.php:107
+msgid "Save Conditions"
+msgstr ""
+
+#: views/offer/cpt/view-timed-email-offer-recipient-data-popup.php:5
+msgid "Offer Recipient Details"
+msgstr ""
+
+#: views/offer/cpt/view-timed-email-offer-recipient-data-popup.php:9
+msgid "Customer"
+msgstr ""
+
+#: views/offer/cpt/view-timed-email-offer-recipient-data-popup.php:20
+#: views/offer/cpt/view-timed-email-offer-recipient-data-popup.php:30
+msgid "Full Name:"
+msgstr ""
+
+#: views/offer/cpt/view-timed-email-offer-recipient-data-popup.php:21
+#: views/offer/cpt/view-timed-email-offer-recipient-data-popup.php:31
+msgid "Email:"
+msgstr ""
+
+#: views/offer/cpt/view-timed-email-offer-recipient-data-popup.php:29
+msgid "Status:"
+msgstr ""
+
+#: views/offer/cpt/view-timed-email-offer-recipient-data-popup.php:29
+msgid "Guest Customer"
+msgstr ""
+
+#: views/offer/cpt/view-timed-email-offer-recipient-data-popup.php:43
+msgid "Order"
+msgstr ""
+
+#: views/offer/cpt/view-timed-email-offer-recipient-data-popup.php:47
+msgid "Order ID:"
+msgstr ""
+
+#: views/offer/cpt/view-timed-email-offer-recipient-data-popup.php:55
+msgid "Scheduled Emails"
+msgstr ""
+
+#: views/offer/cpt/view-timed-email-offer-recipients-meta-box.php:10
+msgid "Offer Recipients"
+msgstr ""
+
+#: views/offer/cpt/view-timed-email-offer-recipients-meta-box.php:14
+msgid "Response Status:"
+msgstr ""
+
+#: views/offer/cpt/view-timed-email-offer-templates-meta-box.php:10
+msgid "Setup the email templates for this offer:"
+msgstr ""
+
+#: views/offer/cpt/view-timed-email-offer-templates-meta-box.php:12
+msgid ""
+"Each email template you define here will be sent to eligible customers on "
+"the given number of days after their Order is completed."
+msgstr ""
+
+#: views/offer/cpt/view-timed-email-offer-templates-meta-box.php:14
+msgid ""
+"<b>Note:</b> The content of actual emails may look slightly different here "
+"than it does in your customer's email client. Make use of the test function "
+"to see what each email will look like as a proper email."
+msgstr ""
+
+#: views/offer/cpt/view-timed-email-offer-templates-meta-box.php:21
+msgid ""
+"The number of days after the order is completed this email should be sent to "
+"the customer."
+msgstr ""
+
+#: views/offer/cpt/view-timed-email-offer-templates-meta-box.php:22
+msgid "Days after order is completed"
+msgstr ""
+
+#: views/offer/cpt/view-timed-email-offer-templates-meta-box.php:27
+msgid "Wrap with WC Header/Footer"
+msgstr ""
+
+#: views/offer/cpt/view-timed-email-offer-templates-meta-box.php:27
+msgid ""
+"Wraps the email with the standard WooCommerce template email header and "
+"footer"
+msgstr ""
+
+#: views/offer/cpt/view-timed-email-offer-templates-meta-box.php:31
+msgid ""
+"Add a heading line to the email header to grab your customer's attention."
+msgstr ""
+
+#: views/offer/cpt/view-timed-email-offer-templates-meta-box.php:36
+msgid "The subject line of the email."
+msgstr ""
+
+#: views/offer/cpt/view-timed-email-offer-templates-meta-box.php:41
+msgid "Email Content"
+msgstr ""
+
+#: views/offer/cpt/view-timed-email-offer-templates-meta-box.php:41
+msgid ""
+"This is the body of the email – your chance to sell your customers on the "
+"offer!"
+msgstr ""
+
+#: views/offer/cpt/view-timed-email-offer-templates-meta-box.php:43
+msgid "+ Show Templates Tags"
+msgstr ""
+
+#: views/offer/cpt/view-timed-email-offer-templates-meta-box.php:46
+msgid "- Hide Template Tags"
+msgstr ""
+
+#: views/offer/cpt/view-timed-email-offer-templates-meta-box.php:47
+msgid "Template Tags Available"
+msgstr ""
+
+#: views/offer/cpt/view-timed-email-offer-templates-meta-box.php:48
+msgid "Subject/Heading:"
+msgstr ""
+
+#: views/offer/cpt/view-timed-email-offer-templates-meta-box.php:49
+msgid "Email Content:"
+msgstr ""
+
+#: views/offer/cpt/view-timed-email-offer-templates-meta-box.php:57
+msgid "Add Template"
+msgstr ""
+
+#: views/offer/cpt/view-timed-email-offer-templates-meta-box.php:65
+msgid "Add New Template"
+msgstr ""
+
+#: views/offer/cpt/view-timed-email-offer-templates-meta-box.php:89
+msgid ""
+"Send a test to see what your email template looks like. You can add multiple "
+"email addresses separated by commas."
+msgstr ""
+
+#: views/offer/cpt/view-timed-email-offer-templates-meta-box.php:97
+msgid "Test Email Recipient"
+msgstr ""
+
+#: views/offer/cpt/view-timed-email-offer-templates-meta-box.php:104
+msgid "Sending Email..."
+msgstr ""
+
+#: views/offer/offer-conditions/view-product-quantity-in-order.php:24
+msgid "Remove Condition"
+msgstr ""
+
+#: views/offer/offer-conditions/view-product-quantity-in-order.php:34
+msgid "Product In Order"
+msgstr ""
+
+#: views/offer/offer-conditions/view-product-quantity-in-order.php:41
+#: views/offer/offer-conditions/view-product-quantity-in-order.php:72
+msgid "Condition"
+msgstr ""
